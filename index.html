@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Велотуризм</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+	<!-- Main container -->
+	<div class="wrapper">
+		<!-- HEADER -->
+		<div class="header">
+			<!-- menu -->
+			<ul class="top-menu">
+				<li>
+					<a href="#" class="top-menu">Мой байк</a>
+				</li>
+				<li>
+					<a href="#" class="active">Товары</a>
+				</li>
+				<li>
+					<a href="#" class="top-menu">Форум</a>
+				</li>
+				<li>
+					<a href="#" class="top-menu">Контакты</a>
+				</li>
+				<li>
+					<a href="#" class="top-menu">Акции</a>
+				</li>
+				<!-- map -->
+				<li class="map-img">
+					<img src="image/map-icon.png" class="map-img" alt="Флажок">
+				</li>
+				<li class="map-text">Отметить место</li>
+				<!-- enter-registration link -->
+				<li class="welcome">
+					<a href="#" class="welcome-url">Вход</a>
+					<span class="welcome-text">или</span>
+					<a href="#" class="welcome-url">Регистрация</a>
+				</li>
+			</ul>
+		</div>
+
+		<!-- registration block -->
+		<div class="registration-block">
+			<div class="registration-form-bg">
+
+				<div class="title">
+					<h1>Велотуризм</h1>
+				</div>
+				<hr class="title-hr">
+				<!-- form -->
+				<div class="form">
+					<div class="facebook">
+						<img src="image/facebook.png" alt="Кнопка Facebook">
+					</div>
+
+					<div class="divider">
+						<span>Ввод</span>
+					</div>
+					<!-- registration form -->
+					<div class="form-container">
+
+						<form class="registration-form" action="#">
+							<label for="first-name">
+								<input type="text" id="first-name" name="first-name" class="registration-field-active" placeholder="Имя" required="required">
+							</label>
+
+							<label for="last-name">
+								<input type="text" id="last-name" name="last-name" class="registration-field" placeholder="Фамилия" required="required">
+							</label>
+
+							<label for="email">
+								<input type="email" id="email" name="email" class="registration-field" placeholder="Email Adress" required="required">
+							</label>
+
+							<label for="password">
+								<input type="password" id="password" name="password" class="registration-field" placeholder="Выберите пароль" required="required">
+							</label>
+
+							<label for="password-confirm">
+								<input type="password" id="password-confirm" name="password-confirm" class="registration-field" placeholder="Подтвердите пароль" required="required">
+							</label>
+						</div>
+
+						<br>
+						<input type="checkbox">
+						<span class="subscribe">Подписаться на новости</span>
+
+						<p class="login-button-block">
+							<input class="login-button" type="submit" value="Войти">
+						</p>
+					 </form>
+
+						<div class="terms">
+							<span>Нажимая на кнопку вверху, Вы соглашаетесь с Приватной Политикой нашего сервиса</span>
+						</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
